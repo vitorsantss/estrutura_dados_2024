@@ -1,23 +1,16 @@
 {
-  "name": "ed",
+  "name": "trabalho-estrutura-de-dados-2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --detectOpenHandles --watch",
-    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --detectOpenHandles --coverage",
-    "doc": "jsdoc -c jsdoc.json"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^29.7.0",
-    "terminal-kit": "^3.1.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "jsdoc": "^4.0.3"
+    "jest": "^29.7.0"
   }
 }
